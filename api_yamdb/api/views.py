@@ -11,10 +11,10 @@ from rest_framework.pagination import (LimitOffsetPagination,
 from rest_framework.permissions import AllowAny, IsAuthenticated
 from rest_framework.response import Response
 from rest_framework_simplejwt.tokens import AccessToken
-
-from .mixins import CreateListDeleteViewSet
 from reviews.models import Category, Genre, Review, Title, User
+
 from .filters import TitlesFilter
+from .mixins import CreateListDeleteViewSet
 from .permissions import AuthorAdminModerOrReadOnly, IsAdminRole, IsReadOnly
 from .serializers import (CategoriesSerializer, CommentSerializer,
                           GenresSerializer, ReviewSerializer,
