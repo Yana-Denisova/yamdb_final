@@ -10,9 +10,8 @@ SECRET_KEY = 'p&l%385148kslhtyn^##a1)ilz@4zqj=rq&agdol^##zgl9(vs'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['web',
-                 'denisova_web_1',
-                 '*', ]
+ALLOWED_HOSTS = ['51.250.82.211',
+                 'denisova_web_1',]
 
 
 # Application definition
