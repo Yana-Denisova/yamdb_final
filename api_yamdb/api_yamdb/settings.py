@@ -12,7 +12,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['web',
                  'denisova_web_1',
-                 '*',]
+                 '*', ]
 
 
 # Application definition
