@@ -128,11 +128,10 @@ POSTGRES_USER=postgres # логин для подключения к базе д
 POSTGRES_PASSWORD=postgrespass # пароль для подключения к БД (установите свой)
 DB_HOST=db # название сервиса (контейнера)
 DB_PORT=5432 # порт для подключения к БД
-
 SECRET_KEY='secretkey' # Django Secret Key
 ```
 
 ## Над проектом работали
-- [Yana-Denisova](https://t.me/DenisovaYana) - категории (Categories), жанры (Genres) и произведения (Titles): модели, представления и эндпойнты для них.
+- [Яна Денисова](https://t.me/DenisovaYana) - категории (Categories), жанры (Genres) и произведения (Titles): модели, представления и эндпойнты для них.
 - [Алексей Туктанов](https://t.me/atuktanov) - управление пользователями (Auth и Users): система регистрации и аутентификации, права доступа, работа с токеном.
 - [BuriloT](https://github.com/BuriloT) - отзывы (Review) и комментарии (Comments): модели и представления, эндпойнты.
